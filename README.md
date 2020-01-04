@@ -1,6 +1,6 @@
 # Qualcomm-Atheros-QCA9377-Wifi-Linux
 Drivers y Firmware para tarjeta Qualcomm Atheros QCA9377 802.11Q [rev. 30].
-Tambien se incluye PKGBUILS para distribuciones Arch y un bash script generico para cualquier distribucion GNU/Linux.
+Tambien se incluye PKGBUILD para distribuciones Arch y un bash script generico para cualquier distribucion GNU/Linux.
 
 
 ## Para Distribuciones Arch
