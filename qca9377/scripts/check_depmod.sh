@@ -1,5 +1,5 @@
 #!/bin/bash
-# Copyright 2009-2013	Luis R. Rodriguez <mcgrof@do-not-panic.com>
+# Copyright 2019 crismatters <crismatters@outlook.com>
 #
 # Ensures your distribution likes to prefer updates/ over the kernel/
 # search updates built-in

@@ -1,4 +1,4 @@
-# Maintainer: Ajay Bhatia <prof.ajaybhatia@gmail.com>
+# Maintainer: crismatters <crismatters@outlook.com>
 
 pkgname=ath10k-qca9377-wifi
 pkgbase=${pkgname}
@@ -17,14 +17,14 @@ md5sums=('756934dba6b59e2ee19922b63b8a97bb'
 build() {
   cd "${srcdir}/${_srcname}"
   make defconfig-ath10k
-  make -j`getconf _NPROCESSORS_ONLN` 
+  make -j`getconf _NPROCESSORS_ONLN`
   sudo make install
 }
 
 package() {
   mkdir -p $pkgdir/etc/modprobe.d
   cp ath10k.conf $pkgdir/etc/modprobe.d/ath10k.conf
-  
+
   DESTDIR="$pkgdir/usr/lib/firmware/"
   mkdir -p $DESTDIR
   cd "${srcdir}/${_srcname}"

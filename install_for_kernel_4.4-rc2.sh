@@ -2,7 +2,7 @@
 #
 #  install_for_kernel_4.4-rc2.sh
 #
-#  Copyright 2015 Ajay Bhatia <prof.ajaybhatia@gmail.com>
+#  Copyright 2019 crismatters <crismatters@outlook.com>
 #
 #  This program is free software; you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -22,7 +22,7 @@
 #
 #  This script will install QCA9377 (Qualcomm Atheros QCA9377 Driver 0042 [rev. 30])
 #  on any GNU\Linux Distribution
-# 
+#
 
 sudo cp -r firmware-only/QCA9377 /lib/firmware/ath10k/
 sudo reboot

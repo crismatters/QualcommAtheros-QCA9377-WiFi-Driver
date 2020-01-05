@@ -1,5 +1,5 @@
 #!/bin/bash
-# Copyright 2009-2013        Luis R. Rodriguez <mcgrof@do-not-panic.com>
+# Copyright 2019       crismatters <crismatters@outlook.com>
 #
 # Since we provide ssb, ethernet modules and most importantly
 # DRM drivers, people may want to update the initramfs image
